@@ -37,6 +37,7 @@ class ListManager
     displayAllItems()
     displayIncompleteItems()
     displayCompleteItems()
+    isComplete()
 
     renameListClicked()
     deleteListClicked()

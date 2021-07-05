@@ -1,3 +1,9 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Sabirah Salau
+ */
+
+
 package ucf.assignments;
 
 import javafx.event.ActionEvent;
@@ -70,5 +76,14 @@ public class ListManager
     }
     public void deleteItem(){
         //Select item to be deleted and remove.
+    }
+
+    public void isComplete() {
+        //return true or false depending on the value
+    }
+
+    public void editItem(){
+        //Select item to be edited
+        //Change description and due date
     }
 }
